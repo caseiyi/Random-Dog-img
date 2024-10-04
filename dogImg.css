@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.heading{
+    padding: 10px;
+    text-transform: uppercase;
+}
+.container{
+   
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg,rgb(0, 0, 0),rgb(49, 49, 49));
+    position: relative;
+}
+.search{
+    height: 30vh;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 20px;
+}
+select{
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    background-color: beige;
+    font-size: 1.1em;
+    color: rgb(66, 66, 73);
+    text-transform: uppercase;
+}
+#btn ,#nxt-btn{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+#btn:hover{
+    background-color: rgb(142, 137, 137);
+}
+.img-section{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img-slide{
+    height: 100%;
+    overflow: hidden;
+}
+.img-slide img{
+    height: 100%;
+}
+#nxt-btn{
+    top: 60%;
+   position: absolute;
+ right: 10%;
+   display: none;
+}
+#nxt-btn:hover{
+transform: scale(1.05);
+}
+.prev{
+    position: absolute;
+    left: 0%;
+    bottom: 2%;
+    color: white;
+    display: none;
+}
